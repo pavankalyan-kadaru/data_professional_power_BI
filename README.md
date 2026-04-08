@@ -1,32 +1,55 @@
-Power BI Dashboard – Survey of Data Professionals
-This project is a Power BI dashboard built using survey data collected from data professionals across various roles and countries. The goal was to analyze job satisfaction, preferred tools, salary trends, and opinions around compensation.
+📌 Overview
 
------- What I Explored
-Job satisfaction: How happy data professionals are in their current roles
+This project analyzes survey data from 600+ data professionals to explore trends in salaries, job roles, tools, and job satisfaction. The goal is to provide insights into career pathways in data-related fields.
 
-Preferred programming languages: Python, SQL, R, etc.
+🎯 Objectives
+Analyze salary distribution across roles and genders
+Understand job satisfaction factors
+Identify popular tools and technologies
+Explore trends in data careers
+📂 Dataset
+Source: Survey dataset (CSV format)
+Size: 600+ responses
+Features include:
+Job role
+Salary
+Gender
+Country
+Tools used
+Job satisfaction metrics
+🛠️ Data Cleaning & Preparation
+Tool Used: Power BI (Power Query)
+Steps performed:
+Cleaned missing and inconsistent data
+Transformed categorical variables
+Created calculated columns and measures using DAX
+Structured data model for analysis
+📊 Dashboard Features (Power BI)
+Interactive slicers:
+Job role
+Gender
+Country
+Visualizations:
+Salary distribution by role
+Job satisfaction analysis
+Tool usage trends
+Gender-based comparisons
+🔍 Key Insights
+Salary varies significantly across roles (Data Analyst, Data Scientist, etc.)
+Identified key factors influencing job satisfaction
+Highlighted most commonly used tools in the industry
+Revealed gender-based differences in salary trends
+🚀 Tools & Technologies
+Power BI (Data Cleaning, Modeling & Visualization)
+DAX (Calculated Measures & KPIs)
+📈 Business Impact
 
-Salary trends: Average salary based on job roles (e.g., Data Analyst, Data Scientist)
+This dashboard helps:
 
-Salary satisfaction: How professionals feel about their earnings
-
-Gender-based comparison: Average salary and job satisfaction across gender identities
-
------- Tools & Techniques Used
-Power BI: Visualizations, slicers, charts, KPIs
-
-DAX: Basic calculations for salary averages and satisfaction scores
-
-Data cleaning: Removed nulls and grouped categories to simplify filtering
-
-------- Key Insights
-Most data professionals reported being happy or somewhat happy in their current roles
-
-Python and SQL were the most preferred languages across roles
-
-Average salary varied significantly by role, with Data Scientists earning higher than Analysts
-
-A large percentage of professionals felt underpaid relative to their expectations
-
-There were notable salary gaps based on gender, especially at senior levels
-
+Aspiring professionals understand career paths
+Organizations analyze salary benchmarks
+Identify trends in data industry tools and skills
+📎 How to Use
+Open the Power BI file (.pbix)
+Use slicers to explore different segments
+Interact with visuals for deeper insights
